@@ -1,0 +1,19 @@
+% Load dataset
+%disp('ionosphere.mat')
+%whos
+%s=load ('ionosphere.mat'); 
+%disp(s)
+
+
+% disp('Contents of workspace before loading file:')
+% whos
+% 
+% disp('Contents of ionosphere.mat:')
+% whos('-file','ionosphere.mat')
+% 
+% load('ionosphere.mat')
+% disp('Contents of workspace after loading file:')
+% whos
+
+file = readtable("zoo.csv")
+filename = 
